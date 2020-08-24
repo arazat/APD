@@ -4,7 +4,9 @@
 	<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
 	<link media="all" rel="stylesheet" type="text/css" href="css/tablet.css">
 	<link media="all" 	rel="stylesheet" type="text/css" href="css/mobileL.css">
+	<link media ="all" rel="stylesheet" type="text/css" href="css/menu.css">
 <head>
+	<link rel="shortcut icon" href="icon/icon.png" type="image/png">
 	<meta  http-equiv="Content-type" content="text/html;charset=UTF-8">
 
 	<meta name="viewport" content="width=device-width">
@@ -16,12 +18,32 @@
 	<div class="wrapper">
 		
 		<header class="header">
+
 		
 			<div class="top">
 		
 				<div class="logo_box">
 					<a href="#" ><img class="logo" src="icon/apd.png" alt="APD"></a>
 				</div>
+				<input id="toggle" type="checkbox">
+
+				<!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+
+				<!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+				<label class="toggle-container" for="toggle">
+				<!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера -->
+					<span class="button button-toggle"></span>
+				</label>
+
+
+			<!-- Навигация -->
+			<nav class="nav">
+				<a rel="nofollow" rel="noreferrer" class="nav-item" href="index.html">Главная</a>
+				<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Cтатьи</a>
+				<a rel="nofollow" rel="noreferrer" class="nav-item" href="">Cтатьи</a>
+				<a rel="nofollow" rel="noreferrer" class="nav-item" href="">О нас</a>
+			</nav>
+
 				
 				<div class="menu">
 					<ul class="ullist" >
