@@ -1,0 +1,61 @@
+
+
+
+
+
+
+@media  (max-width: 768px){
+	.header{
+		height: 80px;
+		position: fixed;
+	}
+	.top{
+		height: 80px;
+	}
+	.ullist{
+		margin: 0 0 0 200px;
+	}
+	.logo{
+		width: 56px;
+		margin:10px 0 0 0;
+
+	
+    	
+	}
+	.menu_items{
+		height: 80px;
+
+
+}
+	.home{color: #fff;padding: 30px;}
+	.courses{color: #fff;padding: 30px;}
+	.rates{color: #fff;padding: 30px;}
+	.about{color: #fff;padding: 30px;width: 98px;}
+	.contacts{color: #fff;padding: 30px;}
+
+	.content{
+		margin:90px 0 0 0 ;
+	}
+	.vk_group{
+		margin: 2px 0 0 0 ;
+	}
+	.telegram_group{
+		margin: 10px 0 0 0;
+
+	}
+	.gmail_massage{
+		margin:20px 0 0 0;
+
+	}
+	.foot_pay{
+		
+	
+		
+		margin: 45px 0 0 170px;
+		
+	}
+
+	
+	
+
+}

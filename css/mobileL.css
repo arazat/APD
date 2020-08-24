@@ -1,0 +1,125 @@
+@media  (max-width: 600px){
+	.header{
+		height: 140px;
+		position: fixed;
+	}
+	.top{
+		height: 140px;
+		margin: 0 0 0 0;
+		/* border: 1px solid yellow; */
+
+	}
+	.logo{
+		width: 110px;
+		margin:15px 0 0 0;
+
+	
+	}
+	.ullist{
+		margin: 0 0 0 0px;
+		font-size: 26px;
+	}
+
+	.menu_items{
+		height: 140px;
+		background-color: #1C1C1C;
+
+
+
+	}
+	.home{color: #fff;padding-top: 60px;}
+	.courses{color: #fff;padding-top: 60px;}
+	.rates{color: #fff;padding-top: 60px;}
+	.about{color: #fff;padding-top: 60px;width: 150px;}
+	.contacts{color: #fff;padding-top: 60px;}
+
+	.content{
+		margin:140px 0 0 0 ;
+		flex-direction: column;
+
+	}
+
+	.adsense{
+		display: none;
+	}
+	.box_press{
+		flex-direction: row;
+		
+
+	}
+	.press_colaider{
+		
+		
+	}
+	.heading{
+		font-size: 23px;
+	}
+	.head_text{
+	font-size:45px;
+	}	
+	.data_press{
+		font-size: 20px;
+	}
+	.txt_box{
+		overflow: auto;
+
+	}
+	.img_text{
+		box-shadow: none;
+		height: 230px;
+		font-size: 25px;
+	
+	}
+	.text{
+		font-size: 27px;
+		line-height: 1.5;
+	}
+	.colum_1{
+		width: 260px;
+	}
+	.foot_ul{
+		margin: 30px 0 0 30px;
+
+
+	}
+	.foot_text{
+		
+		margin: 13px 0 0 0;
+
+
+	}
+	.vk_group{
+		line-height: 1.1;
+		margin: 0 0 0 0 ;
+	}
+
+	.telegram_group{
+		line-height: 1.1;
+		margin: 28px 0 0 0;
+
+	}
+
+	.gmail_massage{
+		line-height: 1.1;
+		margin:22px 0 0 0;
+
+	}
+	.author_text{
+		font-size: 13px;
+		margin: 70px 0 0 0px ;
+
+	}
+	.foot_pay{
+		margin: 56px 0 0 80px;
+	}
+	.qiwi_text{
+		margin: 30px 0 0 0 ;
+	}
+	.support{
+		line-height: 1.1;
+
+	}
+
+}
+
+
